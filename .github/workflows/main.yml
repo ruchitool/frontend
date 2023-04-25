@@ -8,7 +8,7 @@ on:
 # Environment variables available to all jobs and steps in this workflow
 env:
     PROJECT_ID: collegeproject-380416
-    SERVICE_NAME: test1
+    SERVICE_NAME: test2
     REGION: asia-south1
     
     
