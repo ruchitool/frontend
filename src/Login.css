@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    src: url("https://www.1001fonts.com/download/font/montserrat.regular.ttf");
+  }
+
+.container{
+    position:relative;
+    margin-left: 28vw;
+    margin-top: 20vh;
+    display: inline-flex;
+    flex-direction: column;
+    font-family:Montserrat,'Times New Roman', Times, serif ;
+
+    border: 3px solid #fff;
+    border-radius: 7px;
+    padding: 10px;
+    gap: 20px 10px;
+    text-align: left;
+    width: auto;
+    font-size: 18px;
+}
+.button-lit {
+    padding: 10px;
+    border-radius:4px;
+    background-color: rgba(182, 246, 255, 0.089);
+    width: 100%;
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: Montserrat, 'Times New Roman';
+}
+.button {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+    
+}
+
+button:hover {
+    background-color: rgba(122, 252, 230, 0.6);
+    color: #310000;
+    cursor: pointer;
+  }
+
+  button {
+    transition: background-color 0.3s ease-in-out;
+    transition-delay: 0.05s;
+  }
+  .uname {
+    width: 100%;
+  }
+  .password {
+    width: 100%;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+  }
+  

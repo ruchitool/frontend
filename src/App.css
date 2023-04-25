@@ -1,0 +1,90 @@
+.filter-layer {
+  background-color: rgba(45, 131, 108, 0.3);
+  height: 100vh;
+  width:100vw;
+  background-size: cover;
+}
+.background-body {
+  background-image: url('./image.png');
+  height: 100vh;
+  width:100vw;
+  background-size: cover;
+}
+.gradient {
+  background-image: linear-gradient(to right, rgba(45, 128, 131,0.8),rgba(45,128,131,0.1),rgba(45,128,131,0.2),rgba(255,255,255,0.1));
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+.logo {
+  width: 80px;
+  height: 80px;
+  background-image: url('./logo.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: grayscale(100%) invert(100%);
+}
+@font-face {
+  font-family: Fondest;
+  font-style: normal;
+  src: url("https://fontsfree.net//wp-content/fonts/basic/sans-serif/Fondest.ttf");
+}
+.name-title {
+  font-family: Fondest,'Times New Roman', Times, serif;
+  font-style: normal;
+  color:white;
+  text-align:left;
+
+}
+h1{
+  font-weight: normal;
+  font-size: 36px;
+}
+.menu {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  flex-direction:row;
+  background-color: transparent;
+  color: white;
+  gap: 90px;
+  padding: 10px;
+  font-family: Montserrat;
+  font-size: 18px;
+}
+@font-face {
+  font-family: Montserrat;
+  font-style: normal;
+  src: url("https://www.1001fonts.com/download/font/montserrat.regular.ttf");
+}
+.n-l {
+  display: flex;
+  
+  flex-direction:row;
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+}
+.structure1{
+  height: 100%;
+  width:100%;
+  background-color: rgba(0, 207, 200, 0.3);
+}
+.structure {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.loginsignupcard {
+  margin-top: 22px;
+  width: 250px;
+  height: 50px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  background-color: #003532;
+  display: flex;
+  color:white;
+  font-family: Montserrat;
+  gap:30px;
+
+}

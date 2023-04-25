@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Fondest;
+    font-style: normal;
+    src: url("https://fontsfree.net//wp-content/fonts/basic/sans-serif/Fondest.ttf");
+}
+.welcome {
+    padding:10px;
+    font-family: Fondest,sans-serif;
+    text-align: left;
+    color:white;
+}
+h1 {
+    font-weight: normal;
+}
+.heading {
+    font-size: 48px;
+}
+.paragraph {
+    font-size: 24px;
+}

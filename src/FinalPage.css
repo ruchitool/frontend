@@ -1,0 +1,17 @@
+.finalpage{
+    margin-left: 10px;
+}
+.rater{
+    display: flex;
+    flex-direction: row;
+}
+.button{
+    flex:1;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.box{
+    flex:1;
+    flex-grow: 1;
+    flex-shrink: 0;
+}

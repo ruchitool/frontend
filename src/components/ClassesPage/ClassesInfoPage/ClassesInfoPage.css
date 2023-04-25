@@ -1,0 +1,38 @@
+.content-main{
+    padding-top: 100px;
+    padding-left: 4vw;;
+    font-family: Fondest,'Times New Roman', Times, serif;
+    font-style: normal;
+    color:white;
+    text-align:left;  
+    font-size: 72px;
+    display: flex;
+    flex-direction: row;
+    gap:4vw;
+    justify-content: flex-start;
+}
+.content-main-text{
+  vertical-align: bottom;
+}
+.white-line {
+  border-left: 5px solid #fff;
+  height: 40vh;
+}
+.card-cover {
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+  
+}
+.card-back-button {
+  margin-left: 3vw;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.back{
+  font-family: Montserrat;
+  font-size:medium;
+  font-weight: bold;
+}

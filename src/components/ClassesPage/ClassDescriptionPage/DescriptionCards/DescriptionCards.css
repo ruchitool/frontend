@@ -1,0 +1,73 @@
+.image-thumbnail {
+  width: 30%; 
+  height: 225px; 
+  overflow: hidden; 
+}
+
+.image {
+width: 100%; 
+height: 100%; 
+object-fit: cover; 
+border-radius: 3px ;
+}
+.main-content1{
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  
+  color: white;
+  font-family: Montserrat;
+  font-weight: medium;
+  font-size: 24px;
+  transition: background-color 0.2s ease-in-out;
+  transition-delay: 0.05s;
+}
+.main-content1:hover{
+  background-color: rgba(229, 243, 240, 0.4);
+    color: #310000;
+    cursor: pointer;
+}
+.row-content{
+  width: 70%;
+  height: 225px;
+  display: flex;
+  gap:15px;
+  flex-direction: column;
+}
+.read-more-button{
+  font-weight: bolder;
+  cursor: pointer;
+}
+@font-face {
+  font-family: Fondest;
+  font-style: normal;
+  src: url("https://fontsfree.net//wp-content/fonts/basic/sans-serif/Fondest.ttf");
+}
+.column-name-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  font-family: Fondest;
+  font-weight: bolder;
+  font-size: 36px;
+}
+.adjuster-last{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.address-content{
+  /* font-weight: ; */
+  font-size: 30px;
+}
+.content-text{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; /* start showing ellipsis when 3rd line is reached */
+  white-space: pre-wrap;
+  line-height: 24px;
+}

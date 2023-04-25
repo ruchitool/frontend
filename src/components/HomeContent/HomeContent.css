@@ -1,0 +1,56 @@
+.content-main{
+    padding-top: 100px;
+    padding-left: 4vw;;
+    font-family: Fondest,'Times New Roman', Times, serif;
+    font-style: normal;
+    color:white;
+    text-align:left;  
+    font-size: 72px;
+    display: flex;
+    flex-direction: row;
+    gap:8vw;
+    justify-content: flex-start;
+  }
+  .content-main-text{
+    vertical-align: bottom;
+  }
+  .white-line {
+    border-left: 5px solid #fff;
+    height: 40vh;
+  }
+  .bengaluru-cover {
+    margin-left: 8vw;
+    flex-direction: column;
+    background-size: contain;
+    padding: 4px;
+    gap: 0px;
+    filter : opacity(90%);
+    border: 2px solid #fff;
+    border-radius: 8px;
+    background-color: #ffffff;
+    background: linear-gradient( #fff, #f6f1c1 75%,#f2d176 98%, #ffcc40 99%);
+  }
+  .bengaluru-image{
+    background-image: url('../../bengaluru.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50vh;
+    
+    border-radius: 8px;
+    width: 35vw;
+  }
+  @font-face {
+    font-family: 'Summerof76';
+    src: url('../../fonts/UrbanJungleDEMO.eot'); /* IE9 Compat Modes */
+    src: 
+        url('../../fonts/UrbanJungleDEMO.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../../fonts/UrbanJungleDEMO.woff') format('woff'), /* Pretty Modern Browsers */
+        url('../../fonts/UrbanJungleDEMO.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('../../fonts/UrbanJungleDEMO.svg#svgFontName') format('svg'); /* Legacy iOS */
+  
+  }
+  .bengaluru-name{
+    font-family: Summerof76;
+    text-align: center;
+    color: #080053;
+  }
