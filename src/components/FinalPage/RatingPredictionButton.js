@@ -38,15 +38,18 @@ class RatingPredictionButton extends Component {
       handleClick = () => {
         this.setState({ isLoading: true, loaded: false });
         console.log(this.props.data)
-        fetch("https://asia-south1-collegeproject-380416.cloudfunctions.net/Predictor", {
-                        method: "POST",
-                        mode: 'cors',
-                        header: { "Content-Type": "application/json" },
-                        body: JSON.stringify({ data: this.props.data })})
-        .then(response => response.json())
+        fetch('https://test3-4dk76hxqra-el.a.run.app/predict', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            data: this.props.data
+        })
+        }).then(response => response.json())
         .then(data => {
             console.log(data)
-            this.setState({ data:data.data, isLoading: false,loaded: true });
+            this.setState({ data:data, isLoading: false,loaded: true });
         })
         .catch(error => {
             this.setState({ error:error, isLoading: false,loaded: false });

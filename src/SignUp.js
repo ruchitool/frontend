@@ -30,7 +30,8 @@ class SignUp extends Component {
             password: this.state.password,
             first_name: this.state.firstName,
             last_name: this.state.lastName,
-            age: this.state.age
+            phone_number: this.state.age,
+            dob:"01/01/2000"
         })
         console.log(bodyData);
         fetch('https://test1-4dk76hxqra-el.a.run.app/signup', {
@@ -60,7 +61,7 @@ class SignUp extends Component {
                             </div>
                             <div className = "c">
                             <div className="password">Password:&nbsp;&nbsp;&nbsp;&nbsp; <input type='password' name='password' value={password} onChange={this.handleInputChange}></input></div>
-                            <div className="age"> Age:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type='number' name='age' value={age} onChange={this.handleInputChange}></input></div>
+                            <div className="age"> Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type='number' name='age' value={age} onChange={this.handleInputChange}></input></div>
                             </div>
                             <div className = "d">
                             <Link to="/login">   <div className = "SubmitButton"> <button onClick = {this.handleClick}  className='button-lit'>Submit</button>    Click Here To Login</div></Link>
